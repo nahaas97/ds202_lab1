@@ -1,0 +1,15 @@
+---
+title: "Owner_NathanHaas"
+author: "Nathan Haas"
+date: "9/12/2019"
+output: html_document
+---
+
+Nathan Haas
+
+I tell people that Technical writing is essentially tailoring information towards a certain audience in a way that they can understand it.
+
+The three most important strategies to organizing my work:
+-Keep everything well organized (folders/locations for everything)
+-Stick to the layout (dont put something somewhere else and say you'll move it later)
+-One (slightly) interesting fact about me is that this past summer, I build my own computer from scratch.
