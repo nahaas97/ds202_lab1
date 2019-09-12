@@ -7,9 +7,56 @@ output: html_document
 
 Nathan Haas
 
+**NOTE: My partner has not replied to me since class on Tuesday the 10th.  Professor Chu said i could submit the portions that i have done myself.**
+
 I tell people that Technical writing is essentially tailoring information towards a certain audience in a way that they can understand it.
 
 The three most important strategies to organizing my work:
 -Keep everything well organized (folders/locations for everything)
 -Stick to the layout (dont put something somewhere else and say you'll move it later)
 -One (slightly) interesting fact about me is that this past summer, I build my own computer from scratch.
+
+
+
+Understanding Concepts:
+
+1.Git allows a user to basically create different save points in their files.  Github is basically a online storage space for these save points, where multiple users can access the save points and update them.
+
+2.Git can be used by itself. Git can be used to create save points for the one user updating those files.  Github, as far as i know, cannot be used without git. The advantage of git is the save points on your file, but the disadvantage of not using github is that others cannot access and update those files.
+
+3.A repository is basically a location where the save points of files will be stored and tracked.  To create one, just creat a new folder, locate the folder in the termal and create a repository by typing "git init". In github you can create one by clicking the little "+" icon in the upper right corner.
+
+Coding Exercises:
+
+1.
+```{r}
+X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+table(is.na(X))
+```
+
+2.
+```{r}
+age = c(25,30,45,60,12,41)
+smoker = c('T','F','T','F','F','F')
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+weight = replace(weight, 3, 150)
+```
+
+3. It needs one argument, a vector X.
+```{r}
+Division_by_null = function(X) {
+  mean(is.na(x))
+
+x / sum(x, na.rm = TRUE)
+}
+```
+
+4.
+```{r}
+both_na() = function(x, y) {
+  table(is.na(x))
+  table(is.na(y))
+}
+```
+
